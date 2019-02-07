@@ -73,55 +73,75 @@ body{
 	background-color: #222;
 }
 
+input[name="txtBuscar"]{
+	padding-left: 10px;
+}
+
 #carrinho{
 	font-size: 1.2em;
 	font-weight: 900;
 }
 
-.footer{
+#footer{
 	position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 15px 0;
-    margin-top: 60px;
-    text-align: center;
+    margin: 70px 0px 0px 0px;
     color: white;
+    font-size: .9em;
+    padding: 20px 10px;
+    padding-bottom: 5px;
+    background-color: #151515;
+    overflow: hidden;
 }
 
+#midia{
+	margin-left: 10px;
+}
+
+#telefone{
+	text-align: left;
+}
+
+#gp-midias{
+	text-align: right;
+}
+
+
 @media only screen and (max-width: 767px) {
-  #busca{
-  	padding: 15px 0px 0px 15px; 
-  }
 
-  input[name="txtBuscar"]{
-  	width: 85%;
-  }
+	#busca{
+	 padding: 15px 0px 0px 15px; 
+	}
 
-  #carrinho{
-  	margin: 15px 0;
+	input[name="txtBuscar"]{
+	 width: 85%;
+	}
+
+	#carrinho{
+	margin: 15px 0;
 	font-size: .90em;
 	text-align: center;
-  }
+	}
 
-  #midcontent{
-  	margin-top: 15px;
+	#midcontent{
+	margin-top: 15px;
 	background-color: transparent;
 	padding: 10px 20px;
-  }
+	}
 
-  .destaque{
-  	font-size: 1.15em;
-  	margin: 0 5%;
-  }
+	.destaque{
+	font-size: 1.15em;
+	margin: 0 5%;
+	}
 
-  .midtop{
-  	background-color: rgba(0, 0, 0, 0.8);
-  	border-radius: 5px;
-  	padding: 8px 0;
-  	text-align:center;
-  }
+	.midtop{
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	padding: 8px 0;
+	text-align:center;
+	}
 
 	img[src="img/fire.png"]{
 		width: 18px;
@@ -134,15 +154,23 @@ body{
 
 	}
 
-  .produto{
-  	margin: 0;
-  	margin-bottom: 15px;
-  	padding-top: 15px;
-  }
+	.produto{
+	margin: 0;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	}
 
-  .produto:hover{
-  	transform: scale(1);
-  }
+	.produto:hover{
+	transform: scale(1);
+	}
+
+	#telefone{
+		text-align: center;
+	}
+
+	#gp-midias{
+		text-align: center;
+	}
 }
 
 
