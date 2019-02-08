@@ -55,7 +55,7 @@
 	margin: 0 30px 0 10px;
 }
 
-input[name="txtBuscar"]{
+#txtBuscar{
 	padding-left: 10px;
 }
 /*-----------------------*/
@@ -84,7 +84,7 @@ input[name="txtBuscar"]{
 	}
 
 	#buscaMenu{
-		margin: 20px 0 10px 0;
+		margin: 20px 0 10px 0px;
 	}
 
 	#menuHeader{

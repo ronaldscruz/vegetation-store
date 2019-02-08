@@ -13,7 +13,7 @@
 </script>
 <div id="menuHeader">
 	<nav class="navbar navbar-expand-xl navbar-dark bg-dark menu-fixo" id="menuHeader">
-		<a href="#" class="navbar-brand font-weight-bold"><img src="img/logo.png" class="d-inline-block align-top" id="logo"></a>
+		<a href="index.php" class="navbar-brand font-weight-bold"><img src="img/logo.png" class="d-inline-block align-top" id="logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudo-menu" aria-expanded="false">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -52,13 +52,13 @@
 			<div class="dropdown-divider"></div>
 
 				<li class="nav-item" id="sec-carrinho">
-					<button class="btn btn-success text-white btn-sm"><img src="img/carrinho.png" width="26px"> Suas compras: <strong>R$0,00</strong></button>
+					<a href="#" class="btn btn-success text-white btn-sm"><img src="img/carrinho.png" width="26px"> Suas compras: <strong>R$0,00</strong></a>
 				</li>
 
 				<div class="dropdown-divider"></div>
 			<form class="form-inline text-sm-center justify-content-center" id="sec-usuario">
-				<button href="#" class="btn btn-light btnmenu"><ion-icon name="log-in"></ion-icon> Login</button>
-				<button href="#" class="btn btn-light btnmenu"><ion-icon name="person-add"></ion-icon> Cadastrar-se</button>
+				<a href="login.php" class="btn btn-light btnmenu"><ion-icon name="log-in"></ion-icon> Login</a>
+				<a href="#" class="btn btn-light btnmenu"><ion-icon name="person-add"></ion-icon> Cadastrar-se</a>
 			</form>
 		</div>
 	</nav>

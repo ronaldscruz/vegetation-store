@@ -45,7 +45,7 @@ body{
 .exibir-produtos{
 	margin-top: 40px; 
 	padding: 30px;
-	background-color: #151515;
+	background-color: #222;
 }
 
 #fogo{
@@ -68,6 +68,11 @@ body{
 	text-align: center;
 	width: 17rem;
 	margin-bottom: 50px;
+	transition: all 0.2s ease;
+}
+
+.card.produto:hover{
+	transform: scale(1.035);
 }
 
 .card-img-top{
@@ -85,34 +90,6 @@ body{
 	font-weight: 900;
 }
 /*----------------------------------------------------*/
-
-
-/*------------- FOOTER -------------*/
-#footer{
-	position: relative;
-    left: 0;
-    bottom: 0;
-    margin: 70px 0px 0px 0px;
-    color: white;
-    font-size: .9em;
-    padding: 20px 10px;
-    padding-bottom: 5px;
-    background-color: #151515;    
-}
-
-#midia{
-	margin-left: 10px;
-}
-
-#telefone{
-	text-align: left;
-}
-
-#gp-midias{
-	text-align: right;
-}
-/*---------------------------------*/
-
 
 
 @media only screen and (max-width: 768px) {
@@ -142,13 +119,6 @@ body{
 		display: none;
 	}
 
-	#telefone{
-		text-align: center;
-	}
-
-	#gp-midias{
-		text-align: center;
-	}
 }
 
 

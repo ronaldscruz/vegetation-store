@@ -1,0 +1,65 @@
+body{
+	background-color: #888888;
+	background: url('../img/index-bg.jpg') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+}
+
+#container-form a{
+	color: #fff;
+	font-weight: 600;
+}
+
+#container-form a:hover{
+	color: #fff;
+	font-weight: 600;
+}
+
+#container-form{
+	margin-top: 150px;
+	color: #fff;
+}
+
+#welcome{
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.dropdown-divider{
+	margin-bottom: 25px;
+}
+
+#btnXS{
+	display: none;
+}
+
+#window{
+	padding: 20px 40px 30px 40px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 768px){
+	body{
+		background: none;
+		background-color: #202020;
+	}
+
+	#btnXL{
+		display: none;
+	}
+
+	#btnXS{
+		display: block;
+	}
+
+	#container-form{
+		margin-top: 120px;
+	}
+
+	#window{
+		padding: 0 30px;
+		background-color: transparent;
+	}
+}

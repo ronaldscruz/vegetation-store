@@ -14,9 +14,7 @@
 	<!--div genérica para encobrir o conteudo e impedir o scroll horizontal-->
 	<div style="overflow-x: hidden;">
 		
-	<!-- --------------------- INI MENU --------------------- -->
 	<?php require_once "index_menu.php" ?>
-	<!-- --------------------- FIM MENU --------------------- -->
 
 		<!-- --------------------- INI CARROSSEL --------------------- -->
 		<div id="cslTrending" class="carousel slide d-none d-md-block" data-ride="carousel">
@@ -84,7 +82,7 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-4">
 					<div class="card produto mx-auto">
-						<img class="card-img-top" src="img/produtos/machado.jpg">
+						<a href="#"><img class="card-img-top" src="img/produtos/machado.jpg"></a>
 						<div class="card-body">
 							<p class="card-title titulo-produto">MACHADINHA COM SERROTE SURVIVAL - GUEPARDO</p>
 							<p class="card-text preco">R$ 239,62</p>
@@ -94,7 +92,7 @@
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4">
 					<div class="card produto mx-auto">
-						<img class="card-img-top" src="img/produtos/faca.jpg">
+						<a href="#"><img class="card-img-top" src="img/produtos/faca.jpg"></a>
 						<div class="card-body">
 							<p class="card-title titulo-produto">CANIVETE INVICTUS PHANTON</p>
 							<p class="card-text preco">R$ 75,00</p>
@@ -104,7 +102,7 @@
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4">
 					<div class="card produto mx-auto">
-						<img class="card-img-top" src="img/produtos/afiador.jpg">
+						<a href="#"><img class="card-img-top" src="img/produtos/afiador.jpg"></a>
 						<div class="card-body">
 							<p class="card-title titulo-produto">AFIADOR DUPLO DE BOLSO VICTORINOX</p>
 							<p class="card-text preco">R$ 89,90</p>
@@ -116,20 +114,8 @@
 		</div>
 		<!-- --------------------- FIM CONTEUDO CENTRAL --------------------- -->
 
-		<footer id="footer">
-			<div class="row">
-				<div class="col-md-6 col-sm-12" id="telefone">
-					<p><ion-icon name="call"></ion-icon> Telefone: (11)2323-9878 / (13) 2392-2938</p>
-				</div>
-				<div class="col-md-6 col-sm-12" id="gp-midias">
-					<p> 
-						<img src="img/social/instagram.png" width="24px" id="midia">
-						<img src="img/social/wpp.png" width="24px" id="midia">
-						<img src="img/social/facebook.png" width="24px" id="midia">
-					</p>
-				</div>
-			</div>
-		</footer>
+		<?php require_once "footer.php" ?>
+		
 	</div>
 	
 	<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
