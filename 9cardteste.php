@@ -78,42 +78,7 @@
 		<!-- --------------------- FIM CARROSSEL --------------------- -->
 
 		<!-- --------------------- INI CONTEUDO CENTRAL --------------------- -->
-		<div class="container exibir-produtos">
-			<p class="titulo-quadro" class="text-white"><img src="img/fire.png" id="fogo"> Em destaque</p>
-			<div class="dropdown-divider" id="secionar"></div>
-			<div class="row">
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="card produto mx-auto">
-						<img class="card-img-top" src="img/produtos/machado.jpg">
-						<div class="card-body">
-							<p class="card-title titulo-produto">MACHADINHA COM SERROTE SURVIVAL - GUEPARDO</p>
-							<p class="card-text preco">R$ 239,62</p>
-							<button href="#" class="btn btn-success btn-block card-link">COMPRAR</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="card produto mx-auto">
-						<img class="card-img-top" src="img/produtos/faca.jpg">
-						<div class="card-body">
-							<p class="card-title titulo-produto">CANIVETE INVICTUS PHANTON</p>
-							<p class="card-text preco">R$ 75,00</p>
-							<button href="#" class="btn btn-success btn-block card-link">COMPRAR</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="card produto mx-auto">
-						<img class="card-img-top" src="img/produtos/afiador.jpg">
-						<div class="card-body">
-							<p class="card-title titulo-produto">AFIADOR DUPLO DE BOLSO VICTORINOX</p>
-							<p class="card-text preco">R$ 89,90</p>
-							<button href="#" class="btn btn-success btn-block card-link">COMPRAR</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		<!-- --------------------- FIM CONTEUDO CENTRAL --------------------- -->
 
 		<footer id="footer">

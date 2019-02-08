@@ -12,7 +12,7 @@
 });
 </script>
 <div id="menuHeader">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-fixo" id="menuHeader">
+	<nav class="navbar navbar-expand-xl navbar-dark bg-dark menu-fixo" id="menuHeader">
 		<a href="#" class="navbar-brand font-weight-bold"><img src="img/logo.png" class="d-inline-block align-top" id="logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudo-menu" aria-expanded="false">
 			<span class="navbar-toggler-icon"></span>
