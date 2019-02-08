@@ -7,10 +7,6 @@ body{
 	background-attachment: fixed;
 }
 
-.btnmenu{
-	margin-right: 8px;
-	margin-bottom: 5px;
-}
 
 .trending{
 	width: 100%;
@@ -68,32 +64,16 @@ body{
 	margin-bottom: 7%;
 }
 
-#busca{
-	padding: 20px 30px;
-	background-color: #222;
-}
-
-input[name="txtBuscar"]{
-	padding-left: 10px;
-}
-
-#carrinho{
-	font-size: 1.2em;
-	font-weight: 900;
-}
-
 #footer{
 	position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
     margin: 70px 0px 0px 0px;
     color: white;
     font-size: .9em;
     padding: 20px 10px;
     padding-bottom: 5px;
-    background-color: #151515;
-    overflow: hidden;
+    background-color: #151515;    
 }
 
 #midia{
@@ -109,21 +89,7 @@ input[name="txtBuscar"]{
 }
 
 
-@media only screen and (max-width: 767px) {
-
-	#busca{
-	 padding: 15px 0px 0px 15px; 
-	}
-
-	input[name="txtBuscar"]{
-	 width: 85%;
-	}
-
-	#carrinho{
-	margin: 15px 0;
-	font-size: .90em;
-	text-align: center;
-	}
+@media only screen and (max-width: 768px) {
 
 	#midcontent{
 	margin-top: 15px;
@@ -155,9 +121,9 @@ input[name="txtBuscar"]{
 	}
 
 	.produto{
-	margin: 0;
-	margin-bottom: 15px;
-	padding-top: 15px;
+		margin: 0 10px;
+		margin-bottom: 15px;
+		padding-top: 15px;
 	}
 
 	.produto:hover{

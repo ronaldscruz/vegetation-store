@@ -11,36 +11,11 @@
 	<title>Vegetation</title>
 </head>
 <body>
+	<!--div genérica para encobrir o conteudo e impedir o scroll horizontal-->
+	<div style="overflow-x: hidden;">
 	<!-- --------------------- INI MENU --------------------- -->
-	<?php require_once "index_menu.php" ?>
+	<?php require_once "index_menu_pc.php" ?>
 	<!-- --------------------- FIM MENU --------------------- -->
-
-		<!-- --------------------- INI BARRA BUSCA/CARRINHO --------------------- -->
-		<div class="container-fluid" id="busca">
-			<div class="row">
-
-				<!-- --------------------- INI BUSCA --------------------- -->
-				<div class="col-md-8 col-sm-12">
-					<form class="form-inline">
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<button class="btn btn-success"><ion-icon name="search"></ion-icon></button>
-							</div>	
-							<input type="text" name="txtBuscar" id="txtBuscar" class="form-control-md d-sm-block" placeholder="o que você procura?">
-						</div>
-					</form>
-				</div>
-				<!-- --------------------- FIM BUSCA --------------------- -->
-
-				<!-- --------------------- INI CARRINHO --------------------- -->
-				<div class="col-md-4 col-sm-12 text-md-right text-sm-center text-white" id="carrinho">
-					<button class="btn btn-outline-secondary text-white"><img src="img/carrinho.png" width="32px"> Suas compras: R$0,00</button>
-				</div>
-				<!-- --------------------- FIM CARRINHO --------------------- -->
-
-			</div>
-		</div>
-		<!-- --------------------- FIM BARRA BUSCA/CARRINHO --------------------- -->
 
 		<!-- --------------------- INI CARROSSEL --------------------- -->
 		<div id="cslTrending" class="carousel slide d-none d-md-block" data-ride="carousel">
@@ -139,20 +114,21 @@
 		</div>
 		<!-- --------------------- FIM CONTEUDO CENTRAL --------------------- -->
 
-	<footer id="footer">
-		<div class="row">
-			<div class="col-md-6 col-sm-12" id="telefone">
-				<p><ion-icon name="call"></ion-icon> Telefone: (11)2323-9878 / (13) 2392-2938</p>
+		<footer id="footer">
+			<div class="row">
+				<div class="col-md-6 col-sm-12" id="telefone">
+					<p><ion-icon name="call"></ion-icon> Telefone: (11)2323-9878 / (13) 2392-2938</p>
+				</div>
+				<div class="col-md-6 col-sm-12" id="gp-midias">
+					<p> 
+						<img src="img/social/instagram.png" width="24px" id="midia">
+						<img src="img/social/wpp.png" width="24px" id="midia">
+						<img src="img/social/facebook.png" width="24px" id="midia">
+					</p>
+				</div>
 			</div>
-			<div class="col-md-6 col-sm-12" id="gp-midias">
-				<p> 
-					<img src="img/social/instagram.png" width="24px" id="midia">
-					<img src="img/social/wpp.png" width="24px" id="midia">
-					<img src="img/social/facebook.png" width="24px" id="midia">
-				</p>
-			</div>
-		</div>
-	</footer>
+		</footer>
+	</div>
 	
 	<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 	<script src="js/jquery.min.js"></script>
