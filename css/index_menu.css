@@ -78,3 +78,7 @@ input[name="txtBuscar"]{
 		text-align: center;
 	}
 }
+
+#content-after-menu{
+	margin-top: 80px;
+}
