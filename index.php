@@ -13,6 +13,7 @@
 <body>
 	<!--div genérica para encobrir o conteudo e impedir o scroll horizontal-->
 	<div style="overflow-x: hidden;">
+		
 	<!-- --------------------- INI MENU --------------------- -->
 	<?php require_once "index_menu.php" ?>
 	<!-- --------------------- FIM MENU --------------------- -->

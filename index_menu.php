@@ -48,16 +48,14 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#"><ion-icon name="call"></ion-icon> contato</a>
 				</li>
-				
-				<div class="dropdown-divider"></div>
+			</ul>
+			<div class="dropdown-divider"></div>
 
 				<li class="nav-item" id="sec-carrinho">
-					<button class="btn btn-success text-white btn-sm"><img src="img/carrinho.png" width="26px"> Suas compras: R$0,00</button>
+					<button class="btn btn-success text-white btn-sm"><img src="img/carrinho.png" width="26px"> Suas compras: <strong>R$0,00</strong></button>
 				</li>
 
 				<div class="dropdown-divider"></div>
-
-			</ul>
 			<form class="form-inline text-sm-center justify-content-center" id="sec-usuario">
 				<button href="#" class="btn btn-light btnmenu"><ion-icon name="log-in"></ion-icon> Login</button>
 				<button href="#" class="btn btn-light btnmenu"><ion-icon name="person-add"></ion-icon> Cadastrar-se</button>
