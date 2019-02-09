@@ -11,8 +11,22 @@
     background-color: #151515;    
 	}
 
-	#midia{
+	.midia{
 		margin-left: 10px;
+		filter: grayscale(100%);
+	    -webkit-filter: grayscale(100%);
+	    -moz-filter: grayscale(100%);
+	    -ms-filter: grayscale(100%);
+	    -o-filter: grayscale(100%);
+	    transition: all 0.2s ease;
+	}
+
+	.midia:hover{
+		filter: grayscale(0%);
+	    -webkit-filter: grayscale(0%);
+	    -moz-filter: grayscale(0%);
+	    -ms-filter: grayscale(0%);
+	    -o-filter: grayscale(0%);
 	}
 
 	#telefone{
@@ -51,9 +65,9 @@
 		</div>
 		<div class="col-md-6 col-sm-12" id="gp-midias">
 			<p> 
-				<img src="img/social/instagram.png" width="24px" id="midia">
-				<img src="img/social/wpp.png" width="24px" id="midia">
-				<img src="img/social/facebook.png" width="24px" id="midia">
+				<a href="#"><img src='img/social/instagram_0.png' class="midia" id="instagram" onmouseout="this.src='img/social/instagram_0.png'" onmouseover="this.src='img/social/instagram_1.png';" width="32px"></a>
+				<a href="#"><img src='img/social/facebook_0.png' class="midia" id="facebook" onmouseout="this.src='img/social/facebook_0.png'" onmouseover="this.src='img/social/facebook_1.png';" width="32px"></a>
+				<a href="#"><img src='img/social/whatsapp_0.png' class="midia" id="whatsapp" onmouseout="this.src='img/social/whatsapp_0.png'" onmouseover="this.src='img/social/whatsapp_1.png';" width="32px"></a>
 			</p>
 		</div>
 	</div>
