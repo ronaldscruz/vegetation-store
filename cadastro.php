@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/forms.css">
 	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"> 
 	<style type="text/css">body{font-family: 'Rubik', sans-serif;}</style>
-	<title>Vegetation</title>
+	<title>Cadastrar-se</title>
 </head>
 <body>
 	<!--div genérica para encobrir o conteudo e impedir o scroll horizontal-->
