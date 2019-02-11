@@ -24,57 +24,57 @@
 				<form id="formCadastro">
 					<div class="form-row">
 						<div class="form-group col-md-7 col-sm-12">
-							<label for="txtNome">Nome completo:</label>
+							<label for="txtNome"><ion-icon name="contact"></ion-icon> Nome completo:</label>
 							<input type="text" name="txtNome" id="txtNome" class="form-control" placeholder="insira aqui seu nome completo" aria-describedby="xpNome" required>
 							<small id="xpNome" class="form-text text-muted">Utilize apenas letras e espaços</small>
 						</div>
 						<div class="form-group col-md-5 col-sm-12">
-							<label for="txtNascimento">Data de nascimento:</label>
+							<label for="txtNascimento"><ion-icon name="calendar"></ion-icon> Data de nascimento:</label>
 							<input type="date" name="txtNascimento" id="txtNascimento" class="form-control data" required>						
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-12">
-							<label for="txtEmail">Email: </label>
+							<label for="txtEmail"><ion-icon name="at"></ion-icon> Email: </label>
 							<input type="email" id="txtEmail" class="form-control" placeholder="exemplo@email.com" required>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-4 col-sm-12">
-							<label for="txtCep">CEP:</label>
-							<input type="number" name="txtCep" id="txtCep" class="form-control" placeholder="00000000" aria-describedby="xpCep"  pattern="[0-9]*" required>
-							<small class="text-muted form-text" id="xpCep"><a href="http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm">Não sabe o seu CEP?</a></small>
+							<label for="txtCep"><ion-icon name="flag"></ion-icon> CEP:</label>
+							<input type="text" name="txtCep" id="txtCep" class="form-control" placeholder="00000000" aria-describedby="xpCep"  pattern="[0-9]*" required>
+							<small class="text-muted form-text" id="xpCep"><a href="http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm" target="_blank">Não sabe o seu CEP?</a></small>
 						</div>
 						<div class="form-group col-md-4 col-sm-4">
-							<label for="txtUf">UF:</label>
+							<label for="txtUf"><ion-icon name="compass"></ion-icon> UF:</label>
 							<input id="txtUf" class="form-control" disabled="true" placeholder="Ex.: SC" required>
 						</div>
 						<div class="form-group col-md-4 col-sm-8">
-							<label for="txtCidade">Cidade:</label>
+							<label for="txtCidade"><ion-icon name="navigate"></ion-icon> Cidade:</label>
 							<input id="txtCidade" class="form-control" disabled="true" placeholder="Ex.: Vales" required>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-4">
-							<label for="txtBairro">Bairro:</label>
+							<label for="txtBairro"><ion-icon name="home"></ion-icon> Bairro:</label>
 							<input type="text" id="txtBairro" class="form-control" disabled="true" placeholder="Ex.: Jd Canadense" required>
 						</div>
 						<div class="form-group col-md-6 col-sm-10">
-							<label for="txtEndereco">Endereço:</label>
+							<label for="txtEndereco"><ion-icon name="pin"></ion-icon> Endereço:</label>
 							<input type="text" id="txtEndereco" class="form-control" disabled="true" placeholder="Ex.: Av. das Folhas" required>
 						</div>
 						<div class="form-group col-md-2 col-sm-10">
-							<label for="txtNumero">Número:</label>
+							<label for="txtNumero"><ion-icon name="grid"></ion-icon> Número:</label>
 							<input type="text" id="txtNumero" class="form-control" pattern="[0-9]*" placeholder="Ex.: 000" required>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6 col-sm-12">
-							<label for="txtTelefone1">Telefone (1)</label>
+							<label for="txtTelefone1"><ion-icon name="call"></ion-icon> Telefone (1)</label>
 							<input type="text" id="txtTelefone1" class="form-control telefone" placeholder="(00) 0000-0000" ^[1-9]{2}\-[2-9][0-9]{7,8}$ required>
 						</div>
 						<div class="form-group col-md-6 col-sm-12">
-							<label for="txtTelefone2">Telefone (2)</label>
+							<label for="txtTelefone2"><ion-icon name="call"></ion-icon> Telefone (2)</label>
 							<input type="text" id="txtTelefone2" class="form-control telefone" placeholder="(00) 0000-0000" ^[1-9]{2}\-[2-9][0-9]{7,8}$>
 						</div>
 					</div>
@@ -106,7 +106,16 @@
 	<script src="js/jmask.js"></script>
 	<script>
 		$(document).ready(function(){
-			$(".telefone").mask('(00)0000-0000');
+			var SPMaskBehavior = function (val) {
+			    return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+			  },
+			  spOptions = {
+			    onKeyPress: function(val, e, field, options) {
+			        field.mask(SPMaskBehavior.apply({}, arguments), options);
+			      }
+			  };
+
+			  $('.telefone').mask(SPMaskBehavior, spOptions);
 			$("#txtCep").mask('00000000');
 		});
 	</script>

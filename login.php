@@ -17,28 +17,26 @@
 	<?php require_once "index_menu.php" ?>
 	
 	<div class="container" id="container-form">
-		<!-- <div id="window"> -->
-			<div class="row justify-content-center">
-				<div class="col-md-4 col-sm-12 justify-content-left" id="window">
-					<p id="welcome">Bem-vindo! Entre com suas credenciais</p>
-					<div class="dropdown-divider"></div>
-					<form id="formLogin">
-						<div class="form-group">
-							<label for="txtLogin">Nome de usuário ou e-mail:</label>
-							<input type="text" name="txtLogin" id="txtLogin" aria-describedby="xpLogin" class="form-control" placeholder="Digite aqui seu usuário ou e-mail" size="30px" required>
-							<small id="xpLogin" class="form-text text-muted">O mesmo utilizado no cadastro. Caso você ainda não tenha um, <a href="cadastro.php">clique aqui.</a></small>
-						</div>
-						<div class="form-group">
-							<label for="txtSenha">Senha:</label>
-							<input type="password" name="txtSenha" id="txtSenha" aria-describedby="xpSenha" class="form-control" placeholder="••••••••••••" required>
-							<small id="xpSenha" class="form-text text-muted">Caso tenha esquecido sua senha, <a href="">clique aqui</a>.</small>
-						</div>
-						<button class="btn btn-primary btn-block" type="submit" id="btnXL">Entrar</button>
-						<button class="btn btn-success btn-block" type="submit" id="btnXS">Entrar</button>
-					</form>
-				</div>
+		<div class="row justify-content-center">
+			<div class="col-md-4 col-sm-12 justify-content-left" id="window">
+				<p id="welcome">Bem-vindo! Entre com suas credenciais</p>
+				<div class="dropdown-divider"></div>
+				<form id="formLogin">
+					<div class="form-group">
+						<label for="txtLogin"><ion-icon name="person"></ion-icon> Nome de usuário ou e-mail:</label>
+						<input type="text" name="txtLogin" id="txtLogin" aria-describedby="xpLogin" class="form-control" placeholder="Digite aqui seu usuário ou e-mail" size="30px" required>
+						<small id="xpLogin" class="form-text text-muted">O mesmo utilizado no cadastro. Caso você ainda não tenha um, <a href="cadastro.php">clique aqui.</a></small>
+					</div>
+					<div class="form-group">
+						<label for="txtSenha"><ion-icon name="key"></ion-icon> Senha:</label>
+						<input type="password" name="txtSenha" id="txtSenha" aria-describedby="xpSenha" class="form-control" placeholder="••••••••••••" required>
+						<small id="xpSenha" class="form-text text-muted">Caso tenha esquecido sua senha, <a href="">clique aqui</a>.</small>
+					</div>
+					<button class="btn btn-primary btn-block" type="submit" id="btnXL">Entrar</button>
+					<button class="btn btn-success btn-block" type="submit" id="btnXS">Entrar</button>
+				</form>
 			</div>
-		<!-- </div> -->		
+		</div>	
 	</div>
 
 	<?php require_once "footer.php" ?>
