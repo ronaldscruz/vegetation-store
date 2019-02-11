@@ -25,12 +25,12 @@
 					<form id="formLogin">
 						<div class="form-group">
 							<label for="txtLogin">Nome de usuário ou e-mail:</label>
-							<input type="text" name="txtLogin" id="txtLogin" aria-describedby="xpLogin" class="form-control" placeholder="Digite aqui seu usuário ou e-mail" size="30px">
-							<small id="xpLogin" class="form-text text-muted">O mesmo utilizado no cadastro. Caso você ainda não tenha um, <a href="#">clique aqui.</a></small>
+							<input type="text" name="txtLogin" id="txtLogin" aria-describedby="xpLogin" class="form-control" placeholder="Digite aqui seu usuário ou e-mail" size="30px" required>
+							<small id="xpLogin" class="form-text text-muted">O mesmo utilizado no cadastro. Caso você ainda não tenha um, <a href="cadastro.php">clique aqui.</a></small>
 						</div>
 						<div class="form-group">
 							<label for="txtSenha">Senha:</label>
-							<input type="password" name="txtSenha" id="txtSenha" aria-describedby="xpSenha" class="form-control" placeholder="••••••••••••">
+							<input type="password" name="txtSenha" id="txtSenha" aria-describedby="xpSenha" class="form-control" placeholder="••••••••••••" required>
 							<small id="xpSenha" class="form-text text-muted">Caso tenha esquecido sua senha, <a href="">clique aqui</a>.</small>
 						</div>
 						<button class="btn btn-primary btn-block" type="submit" id="btnXL">Entrar</button>

@@ -58,7 +58,7 @@
 				<div class="dropdown-divider"></div>
 			<form class="form-inline text-sm-center justify-content-center" id="sec-usuario">
 				<a href="login.php" class="btn btn-light btnmenu"><ion-icon name="log-in"></ion-icon> Login</a>
-				<a href="#" class="btn btn-light btnmenu"><ion-icon name="person-add"></ion-icon> Cadastrar-se</a>
+				<a href="cadastro.php" class="btn btn-light btnmenu"><ion-icon name="person-add"></ion-icon> Cadastrar-se</a>
 			</form>
 		</div>
 	</nav>

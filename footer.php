@@ -18,7 +18,7 @@
 	    -moz-filter: grayscale(100%);
 	    -ms-filter: grayscale(100%);
 	    -o-filter: grayscale(100%);
-	    transition: all 0.2s ease;
+	    transition: all 0.35s ease;
 	}
 
 	.midia:hover{
@@ -55,6 +55,10 @@
 
 		#gp-midias{
 			text-align: center;
+		}
+
+		.midia{
+			margin-left: 0;
 		}
 	}
 </style>
