@@ -82,31 +82,31 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-4">
 					<div class="card produto mx-auto">
-						<a href="#"><img class="card-img-top" src="img/produtos/machado.jpg"></a>
+						<a href="produto.php"><img class="card-img-top" src="img/produtos/machado.jpg"></a>
 						<div class="card-body">
 							<p class="card-title titulo-produto">MACHADINHA COM SERROTE SURVIVAL - GUEPARDO</p>
 							<p class="card-text preco">R$ 239,62</p>
-							<button href="#" class="btn btn-success btn-block card-link">COMPRAR</button>
+							<a href="produto.php" class="btn btn-success btn-block card-link">COMPRAR</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4">
 					<div class="card produto mx-auto">
-						<a href="#"><img class="card-img-top" src="img/produtos/faca.jpg"></a>
+						<a href="produto.php"><img class="card-img-top" src="img/produtos/faca.jpg"></a>
 						<div class="card-body">
 							<p class="card-title titulo-produto">CANIVETE INVICTUS PHANTON</p>
 							<p class="card-text preco">R$ 75,00</p>
-							<button href="#" class="btn btn-success btn-block card-link">COMPRAR</button>
+							<a href="produto.php" class="btn btn-success btn-block card-link">COMPRAR</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-12 col-md-6 col-lg-4">
 					<div class="card produto mx-auto">
-						<a href="#"><img class="card-img-top" src="img/produtos/afiador.jpg"></a>
+						<a href="produto.php"><img class="card-img-top" src="img/produtos/afiador.jpg"></a>
 						<div class="card-body">
 							<p class="card-title titulo-produto">AFIADOR DUPLO DE BOLSO VICTORINOX</p>
 							<p class="card-text preco">R$ 89,90</p>
-							<button href="#" class="btn btn-success btn-block card-link">COMPRAR</button>
+							<a href="produto.php" class="btn btn-success btn-block card-link">COMPRAR</a>
 						</div>
 					</div>
 				</div>

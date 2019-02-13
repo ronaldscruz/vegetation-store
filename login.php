@@ -18,7 +18,7 @@
 	
 	<div class="container" id="container-form">
 		<div class="row justify-content-center">
-			<div class="col-md-4 col-sm-12 justify-content-left" id="window">
+			<div class="col-md-4 col-sm-12 justify-content-left rounded" id="window">
 				<p id="welcome">Bem-vindo! Entre com suas credenciais</p>
 				<div class="dropdown-divider"></div>
 				<form id="formLogin">

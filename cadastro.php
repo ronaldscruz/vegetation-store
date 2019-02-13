@@ -18,7 +18,7 @@
 	
 	<div class="container" id="container-form">
 		<div class="row justify-content-center">
-			<div class="col-md-7 col-sm-12 justify-content-left" id="window">
+			<div class="col-md-7 col-sm-12 justify-content-left rounded" id="window">
 				<p id="welcome">Para efetuar seu cadastro na Vegetation, preencha os campos corretamente.</p>
 				<div class="dropdown-divider"></div>
 				<form id="formCadastro">
@@ -65,17 +65,17 @@
 						</div>
 						<div class="form-group col-md-2 col-sm-10">
 							<label for="txtNumero"><ion-icon name="grid"></ion-icon> Número:</label>
-							<input type="text" id="txtNumero" class="form-control" pattern="[0-9]*" placeholder="Ex.: 000" required>
+							<input type="number" id="txtNumero" class="form-control" pattern="[0-9]" placeholder="Ex.: 000" required>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6 col-sm-12">
 							<label for="txtTelefone1"><ion-icon name="call"></ion-icon> Telefone (1)</label>
-							<input type="text" id="txtTelefone1" class="form-control telefone" placeholder="(00) 0000-0000" ^[1-9]{2}\-[2-9][0-9]{7,8}$ required>
+							<input type="text" id="txtTelefone1" class="form-control telefone" placeholder="(00) 0000-0000" pattern="^[1-9]{2}\-[2-9][0-9]{7,8}$" required>
 						</div>
 						<div class="form-group col-md-6 col-sm-12">
 							<label for="txtTelefone2"><ion-icon name="call"></ion-icon> Telefone (2)</label>
-							<input type="text" id="txtTelefone2" class="form-control telefone" placeholder="(00) 0000-0000" ^[1-9]{2}\-[2-9][0-9]{7,8}$>
+							<input type="text" id="txtTelefone2" class="form-control telefone" placeholder="(00) 0000-0000" pattern="^[1-9]{2}\-[2-9][0-9]{7,8}$">
 						</div>
 					</div>
 					<div class="form-row">

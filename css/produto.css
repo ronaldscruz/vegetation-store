@@ -1,0 +1,58 @@
+body{
+	background-color: #888888;
+	background: url('../img/index-bg.jpg') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+}
+
+#all{
+	margin-top: 150px;
+}
+
+#desc{
+	padding-left: 10px;
+}
+
+#imgproduto{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.card-header{
+	padding: 0px;
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+.card-text{
+	padding: 20px 0;
+}
+
+.btn-lg{
+	margin-bottom: 10px;
+}
+
+#preco{
+	font-size: 1.8em;
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px){
+	#all{
+		margin-top: 100px;
+	}
+
+	.card-header{
+		text-align: center;
+	}
+
+	#preco{
+		text-align: center;
+	}
+
+	.btn-lg{
+		width: 100%;
+	}
+}
