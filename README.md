@@ -1,5 +1,5 @@
 # vegetation-store
-a simple shop developed to practice
+a simple shop developed to practice web development skills
 <br>
 <br>
 ## actual work
